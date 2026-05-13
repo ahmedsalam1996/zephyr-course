@@ -1,0 +1,8 @@
+config BLINK_TIME_MS
+    int "led blinking rate (ms)"
+    default 1000
+    range 500 5000
+    help
+        SETS THE TOGGLING TIME OF LED
+        
+source "Kconfig.zephyr"        
