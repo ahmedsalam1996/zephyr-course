@@ -1,0 +1,12 @@
+ 
+ /{
+    leds{
+        red_led: led_4 {
+            gpios = <&gpioe 3 GPIO_ACTIVE_HIGH>;
+        };
+
+        blue_led: led_3 {
+            gpios = <&gpioc 9 GPIO_ACTIVE_HIGH>;
+        };
+    };
+ };
