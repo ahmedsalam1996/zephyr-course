@@ -1,0 +1,12 @@
+identifier: glasbox_board
+name: ST B_L4S5I_IOT01A Discovery kit
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+ram: 192
+flash: 2048
+supported:
+  - gpio
+vendor: st

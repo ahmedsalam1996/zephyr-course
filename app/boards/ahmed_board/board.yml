@@ -1,0 +1,6 @@
+board:
+  name: ahmed_board
+  full_name: ahmed_board_IOT Discovery kit
+  vendor: globbiz
+  socs:
+    - name: stm32l4s5xx

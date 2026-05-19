@@ -1,0 +1,6 @@
+board:
+  name: glasbox_board
+  full_name: glasbox board from scratch
+  vendor: glasbox
+  socs: 
+    - name: stm32l4s5xx
