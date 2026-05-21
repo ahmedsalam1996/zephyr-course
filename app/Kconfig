@@ -6,3 +6,4 @@ config APP_HEARTBEAT_PERIOD_MS
         SETS THE TOGGLING TIME OF LED
         
 source "Kconfig.zephyr"        
+rsource "drivers/my_driver/Kconfig"

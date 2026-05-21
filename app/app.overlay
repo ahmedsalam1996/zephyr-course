@@ -1,0 +1,6 @@
+/{
+    my_driver1: my_driver {
+        compatible = "my,driver";
+        status = "okay";
+    };
+};

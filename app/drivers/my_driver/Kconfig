@@ -1,0 +1,4 @@
+config MY_DRIVER
+    bool "my driver"
+    default y
+    
