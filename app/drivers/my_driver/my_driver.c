@@ -95,7 +95,7 @@ static int cmd_sensor_info(const struct shell *sh, size_t argc, char **argv)
     return 0;
 }
 
-/*static int cmd_sensor_set(const struct shell *sh, size_t argc, char **argv)
+static int cmd_sensor_set(const struct shell *sh, size_t argc, char **argv)
 {
     const struct device *dev = DEVICE_DT_INST_GET(0);
     if (!device_is_ready(dev)) {
@@ -123,12 +123,12 @@ static int cmd_sensor_info(const struct shell *sh, size_t argc, char **argv)
     shell_print(sh, "Parameter successfully set to %ld", val);
     
     return ret;
-}*/
+}
 SHELL_STATIC_SUBCMD_SET_CREATE(sub_sensor_driver,
     SHELL_CMD_ARG(fetch, NULL, "Call sensor_sample_fetch()", cmd_sensor_fetch, 1, 0),
     SHELL_CMD_ARG(read,  NULL, "Call sensor_channel_get() and print result", cmd_sensor_read, 1, 0),
     SHELL_CMD_ARG(info,  NULL, "Print device name and ready state", cmd_sensor_info, 1, 0),
-    //SHELL_CMD_ARG(set,   NULL, "Set extension parameter: set <value>", cmd_sensor_set, 2, 0),
+    SHELL_CMD_ARG(set,   NULL, "Set extension parameter: set <value>", cmd_sensor_set, 2, 0),
     SHELL_SUBCMD_SET_END
 );
 
