@@ -1,0 +1,1 @@
+"mcuboot":"/mnt/c/Users/Ahmed/demo/zephyr-course/bootloader/mcuboot":"/mnt/c/Users/Ahmed/demo/zephyr-course/bootloader/mcuboot/boot/zephyr/sysbuild"
